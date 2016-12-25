@@ -11,4 +11,3 @@
 * development: `npm run jit` & `npm run aot`
 * production: `ng build --prod --aot`
 * test: `npm test`
-* angular-cli command sudo npm i angular-cli@laste 
