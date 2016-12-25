@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-// import { DemoService, Demo } from '../core';
+import { DemoService, Demo } from '../core';
 
 @Component({
   selector: 'home',
@@ -7,14 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  // data: Demo;
+  data: Demo;
 
-  constructor() {
+  constructor(private demoService: DemoService) {
   }
 
   ngOnInit() {
-    // this.demoService.getDemo()
-    //   .subscribe(res => this.data = res);
+    this.demoService.fetchDemo()
+      .subscribe(res => this.data = res);
   }
 
 }

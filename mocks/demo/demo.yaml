@@ -1,5 +1,5 @@
 - request:
-    url: ^/demo$
+    url: /api/demo$
     method: GET
     headers:
       Content-Type: application/json
