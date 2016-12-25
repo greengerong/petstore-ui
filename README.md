@@ -13,3 +13,7 @@ petstore-ui
 * development: `npm run jit` & `npm run aot`
 * production: `ng build --prod --aot`
 * test: `npm test`
+
+## backend server
+
+[https://github.com/newlee/petstore](https://github.com/newlee/petstore)
